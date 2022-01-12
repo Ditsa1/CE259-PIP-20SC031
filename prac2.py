@@ -1,5 +1,5 @@
 # 20CS031 - DITSA MANDANI
-# Repo. Link - 
+# Repo. Link - https://github.com/Ditsa1/CE259-PIP-20SC031
 # Dictionary
 # a. Write a Python script to check whether a given key already exists in a dictionary.
 # b. Write a Python script to merge two Python dictionaries.
@@ -131,6 +131,7 @@ dicta = {0:1, 1:2, 2:3, 3:3, 4:1, 5:1, 5:3, 6:1, 7:2, 8:1}
 
 temp = list(dicta.values())
 
+# selects the element who has the maximum count and prints the element and its count
 print('Most common element:', max(set(lista), key = lista.count), 'Count:', lista.count(max(set(lista), key = lista.count)))
 print('Most common element:', max(set(tupa), key = tupa.count), 'Count:', tupa.count(max(set(tupa), key = tupa.count)))
 print('Most common element:', max(set(dicta), key = temp.count), 'Count:', temp.count(max(set(dicta), key = temp.count)))
